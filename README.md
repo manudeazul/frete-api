@@ -4,17 +4,16 @@ Olá! Esta é minha resposta para o desafio de criação da API da **Superfrete*
 
 ---
 
-## 🚀 Pré-requisitos
+## Dependências
 
 Para rodar a aplicação localmente, você vai precisar de:
 
 - [Go](https://golang.org/dl/) na versão **1.24.2**
 - [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ---
 
-## 🛠️ Como rodar
+## Como rodar
 
 ```bash
 # Clone este repositório
@@ -38,7 +37,7 @@ Acesse a API em: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 🔁 Rotas
+## Rotas
 
 ### `POST /quote`
 
@@ -103,11 +102,11 @@ Realiza uma cotação fictícia com a API da Superfrete e salva no banco de dado
 
 Consulta as últimas cotações salvas no banco e retorna:
 
-- ✅ Quantidade de cotações por transportadora  
-- 💰 Total do preço de frete (`final_price`) por transportadora  
-- 📊 Média do preço de frete por transportadora  
-- 💸 Frete mais barato geral  
-- 💵 Frete mais caro geral  
+- Quantidade de cotações por transportadora  
+- Total do preço de frete (`final_price`) por transportadora  
+- Média do preço de frete por transportadora  
+- Frete mais barato geral  
+- Frete mais caro geral  
 
 > `last_quotes` é um parâmetro **opcional** que permite filtrar pelas últimas N cotações.
 
