@@ -1,4 +1,4 @@
-# 📦 Superfrete API
+# Superfrete API
 
 Olá! Esta é minha resposta para o desafio de criação da API da **Superfrete**.
 
